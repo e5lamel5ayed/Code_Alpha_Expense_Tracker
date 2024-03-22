@@ -25,7 +25,7 @@ const ExpenseList = ({ expenses, deleteExpense }) => {
       <div className='container mt-5 pt-5'>
         <div className='row'>
           <div className='col-md-12'>
-            <div className="d-flex justify-content-between align-items-center mb-3">
+            <div className="d-flex justify-content-between align-items-center mb-3 flex-wrap">
               <div className='d-flex col-md-6'>
                 <Link to="../addExpense">
                   <button className='btn-new m-0'>New</button>
