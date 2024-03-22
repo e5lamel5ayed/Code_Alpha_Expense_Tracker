@@ -64,7 +64,7 @@ const AddExpense = ({ addExpense }) => {
       <Navbar />
       <div className='container mt-5 pt-5 '>
         <div className='row'>
-          <div className='col-md-8 ml-auto mr-auto form-edit'>
+          <div className='col-md-8  ml-auto mr-auto form-edit'>
             <div className='d-flex mb-4 add-text'>
               <h2 className='mb-4 flex-grow-1 addd' >Add Expense</h2>
               <Link to="/expenseList" className='text-decoration-none'>
