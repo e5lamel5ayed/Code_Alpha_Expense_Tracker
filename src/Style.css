@@ -274,6 +274,31 @@
         font-size: 19px;
     }
 
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    .submit-text {
+        font-size: 3rem;
+    }
+
+    .ready {
+        font-size: 3rem !important;
+    }
+
+    .header-text {
+        font-size: 3rem !important;
+    }
+
+
+    .hover-messege {
+        position: absolute;
+        top: -66px;
+        left: -86px;
+        width: 254%;
+    }
+
 }
 
 .flash {
@@ -554,7 +579,8 @@
     border-top: 2px solid #714b67;
     border-right: 2px solid #714b67;
     border-left: 2px solid #714b67;
-        background-color: #F3F4F6;
+    background-color: #F3F4F6;
+    overflow: auto;
 }
 
 .amount {
