@@ -21,7 +21,7 @@ export default function Header() {
                             keeps everything organized so you can say goodbye to <br></br> that envelope of receipts!
                         </p>
                     </div>
-                    <div className='row mr-auto ml-auto mb-2'>
+                    <div className='col-md-12 mr-auto ml-auto mb-2 d-flex justify-content-center'>
                         <Link to="../addExpense">
                         <button className='btn btn-start mx-3'>Start now - It's free</button>
                         </Link>
